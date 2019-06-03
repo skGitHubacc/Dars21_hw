@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dars_21_hw</string>
+    <string name="counter">Count:</string>
 </resources>
