@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnIncreaseLeft, btnIncreaseRight;
     TextView tvCounterLeft, tvCounterRight;
-    int counterLeft=0;
+    int counterLeft = 0;
     int counterRight = 0;
 
     @Override
@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btn_count_left:
                 counterLeft++;
-                tvCounterLeft.setText("Count: "+ counterLeft);
+                tvCounterLeft.setText("Count: " + counterLeft);
                 break;
             case R.id.btn_count_right:
                 counterRight++;
-                tvCounterRight.setText("Count: "+ counterRight);
+                tvCounterRight.setText("Count: " + counterRight);
                 break;
         }
 
